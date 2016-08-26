@@ -134,5 +134,5 @@ for iB = 1:(length(read_index_list) - 1)
 end
 
 save( [saveFolder 'data.mat'],'eye_area','eye_ect','eye_brightness','frame_rate','THRES_eye','THRES_pupil')
-ebd
+end
 
